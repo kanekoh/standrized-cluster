@@ -5,3 +5,5 @@ resources:
 - operatorgroup.yaml
 - subscription-ocs.yaml
 - subscription-odf.yaml
+- noobaa.yaml
+- noobaa-pv-backing-store.yaml
