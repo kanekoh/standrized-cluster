@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: mcg
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/kanekoh/standrized-cluster.git
+    targetRevision: main
+    path: mcg/overlay/rhdp
+  destination:
+    namespace: openshift-gitops-operator
+    server: https://kubernetes.default.svc
