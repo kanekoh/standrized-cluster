@@ -1,4 +1,4 @@
-resoureces:
+resources:
 - ns.yaml
 - ns-logging.yaml
 - operator-group-logging.yaml
