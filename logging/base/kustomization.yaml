@@ -2,6 +2,7 @@ resources:
 - ns.yaml
 - ns-logging.yaml
 - operator-group-logging.yaml
+- operator-group.yaml
 - subscription-loki.yaml
 - subscription-logging.yaml
 - lokistack.yaml
