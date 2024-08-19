@@ -1,0 +1,9 @@
+resoureces:
+- ns.yaml
+- ns-logging.yaml
+- operator-group-logging.yaml
+- subscription-loki.yaml
+- subscription-logging.yaml
+- lokistack.yaml
+- clusterlogging.yaml
+- obc-loki.yaml
