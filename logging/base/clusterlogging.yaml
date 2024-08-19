@@ -18,6 +18,7 @@ spec:
         maxAge: 7d
     type: lokistack
   visualization:
+    type: ocpConsole
     ocpConsole:
       logsLimit: 15
   managementState: Managed
