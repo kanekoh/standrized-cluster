@@ -4,6 +4,14 @@ metadata:
   name: logging-loki 
   namespace: openshift-logging 
 spec:
+  rules:
+    enabled: true
+    namespaceSelector:
+      matchLabels:
+        example.jp/alert: 'true'
+    selector:
+      matchLabels:
+        example.jp/system: hub
   size:	1x.demo
   storage:
     schemas:
@@ -12,6 +20,9 @@ spec:
     secret:
       name: logging-loki-s3 
       type: s3 
+    tls:
+      caKey: openshift-service-ca.crt
+      caName: service-ca.crt
   storageClassName: gp3-csi
   tenants:
     mode: openshift-logging 
