@@ -8,5 +8,4 @@ resources:
 - ns.yaml
 - subscription.yaml
 - operatorgroup.yaml
-- app-of-apps.yaml
 - clusterrolebindings.yaml
