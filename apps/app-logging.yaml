@@ -8,9 +8,9 @@ metadata:
 spec:
   project: default
   syncPolicy:
-  automated:
-    prune: true
-    allowEmpty: true
+    automated:
+      prune: true
+      allowEmpty: true
   source:
     repoURL: https://github.com/kanekoh/standrized-cluster.git
     targetRevision: main
