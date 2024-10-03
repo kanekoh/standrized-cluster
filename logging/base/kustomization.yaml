@@ -1,6 +1,7 @@
+
 commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
-  a
+
 resources:
 - ns.yaml
 - ns-logging.yaml
