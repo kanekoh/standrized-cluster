@@ -7,6 +7,10 @@ metadata:
     argocd.argoproj.io/sync-wave: "10"
 spec:
   project: default
+  syncPolicy:
+  automated:
+    prune: true
+    allowEmpty: true
   source:
     repoURL: https://github.com/kanekoh/standrized-cluster.git
     targetRevision: main
