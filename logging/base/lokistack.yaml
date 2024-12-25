@@ -23,8 +23,8 @@ spec:
       name: logging-loki-s3 
       type: s3 
     tls:
-      caKey: openshift-service-ca.crt
-      caName: service-ca.crt
+      caKey: service-ca.crt
+      caName: openshift-service-ca.crt
   storageClassName: gp3-csi
   tenants:
     mode: openshift-logging 
