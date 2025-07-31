@@ -2,6 +2,7 @@ apiVersion: datasciencecluster.opendatahub.io/v1
 kind: DataScienceCluster
 metadata:
   name: default-dsc
+  namespace: redhat-ods-operator
   labels:
     app.kubernetes.io/created-by: rhods-operator
     app.kubernetes.io/instance: default-dsc
