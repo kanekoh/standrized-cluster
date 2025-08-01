@@ -4,6 +4,4 @@ metadata:
   generateName: openshift-kmm-
   name: openshift-kmm
   namespace: openshift-kmm
-spec:
-  targetNamespaces:
-  - ""
+spec: {}
