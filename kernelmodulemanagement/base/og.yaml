@@ -6,4 +6,4 @@ metadata:
   namespace: openshift-kmm
 spec:
   targetNamespaces:
-  - openshift-kmm
+  - ""
