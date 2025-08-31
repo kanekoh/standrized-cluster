@@ -5,6 +5,9 @@ metadata:
   namespace: nvidia-gpu-operator
 spec:
   components: {}
+  server:
+    customCheProperties:
+      CHE_LIMITS_WORKSPACE_IDLE_TIMEOUT: '-1'
   containerRegistry: {}
   devEnvironments: {}
   gitServices: {}

@@ -15,12 +15,12 @@ spec:
     kserve:
       nim:
         managementState: Managed
-      rawDeploymentServiceConfig: Headless
+      rawDeploymentServiceConfig: Headed
       serving:
         ingressGateway:
           certificate:
             type: OpenshiftDefaultIngress
-        managementState: Managed
+        managementState: Removed
         name: knative-serving
       managementState: Managed
     modelregistry:
